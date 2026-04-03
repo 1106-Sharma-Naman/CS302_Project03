@@ -7,7 +7,7 @@
 
 /*
    MusicLibrary is the public class for the project.
-   It uses BST<Song> internally.
+   It will use  BST<Song> internally. It will keep items in sort way, also adding, removing songs too.
 */
 class MusicLibrary : public BinaryTreeInterface<Song>
 {
